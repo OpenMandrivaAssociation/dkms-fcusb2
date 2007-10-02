@@ -5,13 +5,14 @@
 Summary: dkms package for %{module} driver
 Name: dkms-%{module}
 Version: %{version}
-Release: %mkrel 4
+Release: %mkrel 5
 Source0: ftp://ftp.avm.de/cardware/fritzcrdusb.v20/linux/suse.93/fcusb2-suse93-3.11-07.tar.bz2
 Patch0: fritz-xchg.patch
 License: Commercial
 Group: System/Kernel and hardware
 URL: http://www.avm.de/
-PreReq: dkms
+Requires(post): dkms
+Requires(preun): dkms
 BuildRoot: %{_tmppath}/%{name}-buildroot
 BuildArch: noarch
 
