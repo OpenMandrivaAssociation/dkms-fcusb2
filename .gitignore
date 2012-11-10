@@ -1,0 +1,6 @@
+dkms-fcusb2-remove-DECLARE_MUTEX_LOCKED.patch
+dkms-fcusb2-remove-usb_driver_owner.patch
+dkms-fcusb2-update-INIT_WORK-changes.patch
+dkms-fcusb2-update-usb_complete_t-functions.patch
+dkms-fcusb2-use-autoconf-header.patch
+fcusb2-suse93-3.11-07.tar.bz2
