@@ -5,7 +5,7 @@
 Summary: dkms package for %{module} driver
 Name: dkms-%{module}
 Version: %{version}
-Release: %mkrel 6
+Release: 7
 Source0: ftp://ftp.avm.de/cardware/fritzcrdusb.v20/linux/suse.93/fcusb2-suse93-3.11-07.tar.bz2
 Source1: dkms-fcusb2-use-autoconf-header.patch
 Source2: dkms-fcusb2-remove-usb_driver_owner.patch
